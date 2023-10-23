@@ -1,0 +1,29 @@
+.products {
+    display: grid;
+    grid-template-columns: 25% 20%;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: darkgrey;
+    border-radius: 20px;
+    width: 130px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cart {
+    text-decoration: none;
+    color: black;
+}
+.mainpage {
+    text-decoration: none;
+    color: black;
+}
