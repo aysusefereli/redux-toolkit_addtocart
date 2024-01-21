@@ -20,7 +20,7 @@ function App() {
             <h1>{a.id}</h1>
             <p>{a.product}</p>
             <p>{a.price}</p>
-            <button onClick={() => dispatch(addToCart(a.id))}>Add To Cart</button>
+            <button onClick={() => dispatch(addToCart(a))}>Add To Cart</button>
           </div>
         ))
       }

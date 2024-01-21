@@ -32,10 +32,7 @@ export const productSlice = createSlice({
   initialState,
   reducers: {
     addToCart: (state, action) => {
-      const productToAdd = state.product.find((p) => p.id === action.payload);
-      if (productToAdd) {
-        state.favorites.push(productToAdd);
-      }
+      state.favorites.push(action.payload)
     },
   },
 })
